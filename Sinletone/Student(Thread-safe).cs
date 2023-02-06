@@ -49,9 +49,7 @@ namespace Singletone
         }
         static void Main(string[] args)
         {
-            Parallel.Invoke(
-                () => PrintStudents()
-                );
+            PrintStudents();
         }
     }
 }
